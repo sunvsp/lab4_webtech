@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Hind');
+
+body{
+  background-image: url("../img/2.jpg");
+
+  background-size: cover;
+  color: white;
+}
+#wrapper{
+  background-color: rgba(20, 27, 29, 0.8);
+  width: 580px;
+  height: 600px;
+  margin-left: 130px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+p{
+  color: white;
+}
+
+#main{
+  width: 500px;
+  height: 450px;
+  /* background-color: white; */
+  margin: 0 auto;
+
+
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #63d297;
+    margin-top: -40px;
+    padding: 0;
+    /* background-color: black;
+    color: black; */
+}
+
+#myselect {
+   /* background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0; */
+   height: 50px;
+   padding-bottom: 2px;
+   width: 430px;
+   font-size: 16px;
+   font-family: 'Hind';
+   background: transparent;
+   color: white;
+   padding-left: 10px;
+}
+
+
+option{
+  background-color: rgba(20, 27, 29, 0.8);
+}
+
+
+input[type=submit]{
+  background-color: #4ba173; /* Green */
+  color: white;
+
+  cursor: pointer;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border: none;
+
+}
+
+input[type=submit]:hover{
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+    background-color: #717171;
+    color: white;
+    border: none;
+
+}
+
+input[type=text]{
+  border-radius: 3px;
+  height: 25px;
+  width: 190px;
+  margin-top: 3px;
+  display: inline-block;
+  font-size: 17px;
+  font-family: 'Inconsolata';
+  padding-left: 10px;
+}
+
+#selectMe{
+  border-radius: 3px;
+  height: 35px;
+  width: 350px;
+  margin-top: 3px;
+  font-size: 14px;
+}
+#result{
+  color: #fff176;
+  line-height: 30px;
+  padding-left: 10px;
+  margin-top: 40px;
+  -webkit-transition-duration: 0.9s; /* Safari */
+  transition-duration: 0.9s;
+  width: 480px;
+  margin: 0 auto;
+
+}
