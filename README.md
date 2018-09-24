@@ -1,14 +1,6 @@
-# Repository Title Goes Here
+# SAPBot Project
 
-> SAPBot project is the Skype bot with LUIS, natural language processor. SAPBot project is integration of three bot. It are Integration bot, Security bot and Basis bot. 
-
-> ideally one sentence
-
-> include terms/tags that can be searched
-
-# Project Title
-
-
+SAPBot project is the Skype bot with LUIS, natural language processor. SAPBot project is integration of three bot. It are Integration bot, Security bot and Basis bot. 
 
 ## Getting Started
 
