@@ -4,15 +4,19 @@ SAPBot project is the Skype bot with LUIS, natural language processor. SAPBot pr
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+You can develop and test this Chatbot by using Vitaul Studio. When you would like to runing the code, press Ctrl+F5 (without Debug mode) or F5 (Debug mode).
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software for develop and testing this project.
 
 ```
-Give examples
+### For Develop
+Visual Studio
+Git Bash
+
+### For Testing
+Admin Authentication in server
 ```
 
 ### Installing
