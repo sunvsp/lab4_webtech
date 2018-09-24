@@ -11,16 +11,16 @@ You can develop and test this Chatbot by using Vitaul Studio. When you would lik
 What things you need to install the software for develop and testing this project.
 
 
-<h3><b>For Develop</b><h3>
-<ol>
+<h3><b>For Develop</b></h3>
+<ul>
 <li>Visual Studio</li>
 <li>Git Bash</li>
-</ol>
+</ul>
 
 <h3><b>For Testing</b></h3>
-<ol>
+<ul>
 <li>Admin Authentication in server</li>
-</ol>
+</ul>
 
 
 ### Installing
