@@ -1,97 +1,86 @@
-# SAPBot Project
+<!-- Logo SAPBot -->
 
-SAPBot project is the Skype bot with LUIS, natural language processor. SAPBot project is integration of three bot. It are Integration bot, Security bot and Basis bot. 
+# SAPBot Project
+SAPBot project is the Skype bot with LUIS, natural language processor. SAPBot project is integration of three bot. It are Integration bot, Security bot and Basis bot.
+
+**Badges will go here**
+
+- build status
+- issues
+- devDependencies
+- downloads
+- etc.
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
+<br>
+**Table of Contents**
+
+[TOCM]
+
+[TOC]
+
 
 ## Getting Started
-
 You can develop and test this Chatbot by using Vitaul Studio. When you would like to runing the code, press Ctrl+F5 (without Debug mode) or F5 (Debug mode).
 
 ### Prerequisites
-
 What things you need to install the software for develop and testing this project.
 
+####For Developer
 
-<b>For Develop</b>
-<ul>
-<li>Visual Studio</li>
-<li>Git Bash</li>
-</ul>
+- Visual Studio
+- Git Bash 
 
-<b>For Testing</b>
-<ul>
-<li>Admin Authentication in server</li>
-</ul>
+####For Testing
 
+- Admin Authentication in server
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step, how to get a development env running
 
-Say what the step will be
+####For Developer
 
+1. Create a folder for this project
+2. Open Git Bash  and navigate to the folder. Use the following command to reach it<br>
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+cd <file path>
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+3. You have to set up SSH authentication, so you can connect to the Git repository.  First, use the following command to see if you already have an SSH key set up on your computer<br>
 ```
-Give an example
+cat ~/.ssh/id_rsa.pub
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
+<!-- picture id_rsa -->
+The picture abrove, Example of  an existing SSH key .<br>
+<b>If it identifies an existing SSH key, you should skip the instructions below.</b>
+• To do so, use the following command. For &lt;user&gt;@&lt;url&gt;. For example, savchong@na.xom.com
 ```
-Give an example
+ssh-keygen –t rsa –C “<user>@<url>” –b 4096
 ```
+• When you see the following line, just press Enter. It will put the SSH key in the default location.
+```
+Enter file in which to save the key (/C//.ssh/id_rsa):
+```
+• You will be prompted to enter a passphrase. If you press Enter without typing a passphrase, your SSH won’t be passphrase –protected, but it’s recommended to enter one. Be sure to remember it.
+• At this point, you should have an SSH key on your computer. Use the following command to copy it onto your clipboard
+```
+cat ~/.ssh/id_rsa.pub | clip
+```
+• Now sign in to https://gitserver.xtonet.com/smpatel/BasisBot and click on the Settings button for your profile.
+picture
+• Navigate to the SSH Keys tab and paste the contents of your clipboard into the text box labeled “Key”. Ensure that the title assigned to it is identifiable because this SSH key will only match the current computer.<br>
 
-## Deployment
+4. dkfdjfdj
 
-Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
